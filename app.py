@@ -51,4 +51,4 @@ def get_state():
     return jsonify(checkbox_state)
 
 if __name__ == '__main__':
-    socketio.run(app, host='192.168.0.25', port=5000, debug=True)
+    socketio.run(app, host='0.25', port=5000, debug=True)
